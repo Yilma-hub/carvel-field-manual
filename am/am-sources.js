@@ -1,0 +1,63 @@
+/* Amharic labels for the sources list and quote source lines. Keyed by the English label. */
+window.AM = window.AM || {};
+(function(A){
+var M = {January:"ጃንዩወሪ",February:"ፌብሩወሪ",March:"ማርች",April:"ኤፕሪል",May:"ሜይ",June:"ጁን",July:"ጁላይ",August:"ኦገስት",September:"ሴፕቴምበር",October:"ኦክቶበር",November:"ኖቬምበር",December:"ዲሴምበር"};
+A.month = function(s){ return String(s).replace(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\b/g, function(m){ return M[m]; }); };
+A.src = {
+'UDaily, "Irrigation research" by Adam Thomas':'UDaily፣ "የመስኖ ምርምር"፣ ጸሐፊ Adam Thomas',
+'Understanding Delaware Agriculture blog':'"የዴላዌርን ግብርና መረዳት" ብሎግ',
+'47 ABC WMDT, "DE organizations warn that water irrigation can be hazardous for roadways"':'47 ABC WMDT፣ "የዴላዌር ድርጅቶች የመስኖ ውሃ ለመንገዶች አደገኛ ሊሆን እንደሚችል አስጠነቀቁ"',
+'Cape Gazette, Delaware Farm Bureau heat safety story':'Cape Gazette፣ የDelaware Farm Bureau የሙቀት ደህንነት ዘገባ',
+'UDaily, "The county agent" by Michele Walfred':'UDaily፣ "የካውንቲው ኤክስቴንሽን ባለሙያ"፣ ጸሐፊ Michele Walfred',
+'UD CANR News, "Mireille Chahine joins UD Cooperative Extension"':'UD CANR News፣ "Mireille Chahine የUD Cooperative Extensionን ተቀላቀሉ"',
+'UDaily, Mark Isaacs retirement story by Molly Schafer':'UDaily፣ ስለ Mark Isaacs ጡረታ የወጣ ዘገባ፣ ጸሐፊ Molly Schafer',
+'47 ABC WMDT, Lower Shore Agronomy Day coverage':'47 ABC WMDT፣ የLower Shore የአግሮኖሚ ቀን ዘገባ',
+'Delaware News, Environmental Stewardship Award semi-finalists':'Delaware News፣ የአካባቢ ጥበቃ ሽልማት ግማሽ ፍጻሜ ተወዳዳሪዎች',
+'Maryland Today, "Study predicts quadrupling of summer irrigation needs for Eastern Shore soybean farmers" by Kimbra Cutlip':'Maryland Today፣ "ጥናት፡ የEastern Shore የአኩሪ አተር ገበሬዎች የሰመር መስኖ ፍላጎት አራት እጥፍ ይሆናል"፣ ጸሐፊ Kimbra Cutlip',
+'UMD College of Agriculture and Natural Resources, "Irrigation needs could quadruple for Eastern Shore soybean farmers in July and August"':'UMD የግብርናና የተፈጥሮ ሀብት ኮሌጅ፣ "በጁላይና በኦገስት የEastern Shore የአኩሪ አተር ገበሬዎች የመስኖ ፍላጎት አራት እጥፍ ሊሆን ይችላል"',
+'47 ABC WMDT, "Eastern Shore farmers are feeling the heat amid statewide drought"':'47 ABC WMDT፣ "በግዛት አቀፍ ድርቅ ውስጥ የEastern Shore ገበሬዎች ሙቀቱ እየተሰማቸው ነው"',
+'The Banner, "Heat and drought threaten Maryland farmers as grain prices plummet" by Matti Gellman':'The Banner፣ "የእህል ዋጋ ሲወርድ ሙቀትና ድርቅ የሜሪላንድ ገበሬዎችን ያሰጋሉ"፣ ጸሐፊ Matti Gellman',
+'47 ABC WMDT, "Eastern Shore farmers, working through the drought"':'47 ABC WMDT፣ "የEastern Shore ገበሬዎች ድርቁን ተቋቁመው እየሠሩ ነው"',
+'Delaware Public Media, "To irrigate or not? Tough choice for Delaware farmers"':'Delaware Public Media፣ "ማጠጣት ወይስ አለማጠጣት? ለዴላዌር ገበሬዎች ከባድ ምርጫ"',
+'UDaily, "Feeling the heat" by Lauren Bradford':'UDaily፣ "ሙቀቱ ሲሰማ"፣ ጸሐፊ Lauren Bradford',
+'HortiDaily, "University program to develop heat tolerant lima bean varieties"':'HortiDaily፣ "ሙቀትን የሚቋቋሙ የሊማ ባቄላ ዝርያዎችን ለማውጣት የዩኒቨርሲቲ ፕሮግራም"',
+'Lancaster Farming, "Lima Researcher Aims to Build a Better Bean" by Michael Short':'Lancaster Farming፣ "የሊማ ተመራማሪዋ የተሻለ ባቄላ ለማውጣት ታልማለች"፣ ጸሐፊ Michael Short',
+'UDaily, "More lima beans, please" by Katie Young':'UDaily፣ "እባካችሁ ተጨማሪ የሊማ ባቄላ"፣ ጸሐፊ Katie Young',
+'Lancaster Farming, "Delmarva Watermelon Growers Have East Coast Edge" by Dan Sullivan':'Lancaster Farming፣ "የDelmarva የሐብሐብ አምራቾች በምሥራቅ ጠረፍ ብልጫ አላቸው"፣ ጸሐፊ Dan Sullivan',
+'Bay Journal, "As land turns salty, farmers grapple with lost income"':'Bay Journal፣ "መሬቱ ጨዋማ ሲሆን ገበሬዎች ከጠፋው ገቢ ጋር ይታገላሉ"',
+'Bay Journal, "Saltwater intrusion laying waste to Delmarva farms as sea level rises" by Jeremy Cox':'Bay Journal፣ "የባሕር ወለል ሲጨምር የጨው ውሃ ሰርጎ መግባት የDelmarva እርሻዎችን እያወደመ ነው"፣ ጸሐፊ Jeremy Cox',
+'Civil Eats, "As Saltwater Encroaches on Farms, Solutions Emerge From the Marshes" by Lisa Held':'Civil Eats፣ "የጨው ውሃ ወደ እርሻዎች ሲገፋ መፍትሔዎች ከረግረጋማ ቦታዎች ይወጣሉ"፣ ጸሐፊ Lisa Held',
+'UDaily, "Salty farms" by Adam Thomas':'UDaily፣ "ጨዋማ እርሻዎች"፣ ጸሐፊ Adam Thomas',
+'Spotlight Delaware, "Saltwater intrusion requires underground compromise in Kent County" by Maddy Lauria':'Spotlight Delaware፣ "በKent County የጨው ውሃ ሰርጎ መግባት ከመሬት በታች መግባባትን ይጠይቃል"፣ ጸሐፊ Maddy Lauria',
+'SMADC, "Water supply options for farmers in Maryland"':'SMADC፣ "በሜሪላንድ ለገበሬዎች የውሃ አቅርቦት አማራጮች"',
+'Chesapeake Bay Program, "Lag-times call for patience in awaiting a restored Bay"':'Chesapeake Bay Program፣ "የመዘግየት ጊዜዎች የተመለሰ ቤይን ለመጠበቅ ትዕግሥት ይጠይቃሉ"',
+'USGS news release, "Eastern Shore contributes excess nutrients to Chesapeake Bay"':'የUSGS ጋዜጣዊ መግለጫ፣ "Eastern Shore ትርፍ ንጥረ ነገሮችን ወደ Chesapeake Bay ይጨምራል"',
+'Choices magazine, Third quarter 2011':'Choices መጽሔት፣ 2011 ሦስተኛ ሩብ ዓመት',
+'Conduit Street (Maryland Association of Counties), citing the Bay Journal':'Conduit Street (የሜሪላንድ ካውንቲዎች ማኅበር)፣ Bay Journalን ጠቅሶ',
+'FAO Irrigation and Drainage Paper 56, Crop evapotranspiration (Allen and others, 1998)':'FAO የመስኖና የፍሳሽ ጽሑፍ 56፣ የሰብል ትነት ትርፍ (Allen እና ሌሎች፣ 1998)',
+'UD Cooperative Extension, Irrigation program home':'UD Cooperative Extension፣ የመስኖ ፕሮግራም ዋና ገጽ',
+'UD Cooperative Extension, Irrigation system uniformity and performance testing impact page':'UD Cooperative Extension፣ የመስኖ ሥርዓት ወጥነትና የአፈጻጸም ፍተሻ ውጤት ገጽ',
+'UD Cooperative Extension, Irrigation projects and studies':'UD Cooperative Extension፣ የመስኖ ፕሮጀክቶችና ጥናቶች',
+'UD Cooperative Extension, Irrigated lima bean yield and quality study':'UD Cooperative Extension፣ በመስኖ የሚለማ የሊማ ባቄላ ምርትና ጥራት ጥናት',
+'UD Extension 2024 impact sheet, Irrigation System':'UD Extension የ2024 ውጤት ማጠቃለያ፣ የመስኖ ሥርዓት',
+'UD Extension fact sheet, Delaware Nutrient Management Law':'UD Extension መረጃ ወረቀት፣ የዴላዌር የንጥረ ነገር አያያዝ ሕግ',
+'UD CANR News, Carvel field and crop tours 2026':'UD CANR News፣ የ2026 የCarvel የማሳና የሰብል ጉብኝቶች',
+'James Adkins, UD Extension directory':'James Adkins፣ የUD Extension ማውጫ',
+'USDA NASS 2022 Census of Agriculture, Delaware state profile':'USDA NASS የ2022 የግብርና ቆጠራ፣ የዴላዌር ግዛት መግለጫ',
+'USDA NASS 2022 Census of Agriculture, Sussex County profile':'USDA NASS የ2022 የግብርና ቆጠራ፣ የSussex County መግለጫ',
+'USDA NASS 2022 Census of Agriculture, Kent County profile':'USDA NASS የ2022 የግብርና ቆጠራ፣ የKent County መግለጫ',
+'USDA NASS 2022 Census of Agriculture, New Castle County profile':'USDA NASS የ2022 የግብርና ቆጠራ፣ የNew Castle County መግለጫ',
+'USGS Data Series 932, Center-pivot irrigated areas in the mid-Atlantic region':'USGS Data Series 932፣ በመካከለኛው አትላንቲክ ክልል በሴንተር ፒቮት የሚጠጡ ቦታዎች',
+'USDA NRCS Conservation Practice Standards (442, 449, 441, 430, 533 and others)':'USDA NRCS የጥበቃ አሠራር ደረጃዎች (442፣ 449፣ 441፣ 430፣ 533 እና ሌሎች)',
+'Delaware Environmental Observing System (DEOS)':'የዴላዌር የአካባቢ ምልከታ ሥርዓት (DEOS)',
+'Delaware Geological Survey':'የዴላዌር ጂኦሎጂካል ሰርቬይ (Delaware Geological Survey)',
+'Maryland Department of the Environment, drought update':'የሜሪላንድ የአካባቢ ጥበቃ መምሪያ፣ የድርቅ ሁኔታ መረጃ',
+'Maryland Geological Survey, Open-File Report 20-02-01':'የሜሪላንድ ጂኦሎጂካል ሰርቬይ፣ Open-File Report 20-02-01',
+'Maryland Department of Agriculture, Phosphorus Management Tool FAQ':'የሜሪላንድ ግብርና መምሪያ፣ ስለ ፎስፈረስ አያያዝ መሣሪያ (PMT) ተደጋግመው የሚጠየቁ ጥያቄዎች',
+'USDA SARE (Sustainable Agriculture Research and Education)':'USDA SARE (የዘላቂ ግብርና ምርምርና ትምህርት)',
+'USDA National Institute of Food and Agriculture (NIFA)':'USDA የምግብና ግብርና ብሔራዊ ተቋም (NIFA)',
+'FAA Part 107 small unmanned aircraft rules':'FAA Part 107፣ የአነስተኛ ሰው አልባ አውሮፕላን (ድሮን) ደንቦች'
+};
+/* label = "src" or "src, date" */
+A.srcLabel = function(src, date){ var t = A.src[src] || src; return date ? t + "፣ " + A.month(date) : t; };
+})(window.AM);

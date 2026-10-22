@@ -11,6 +11,7 @@ It is a plain static website: HTML, CSS and JavaScript. There is no build step a
 - content1.js to content8.js: the 52 English pages
 - glossary.js, glossary2.js, glossary3.js: the 265 glossary terms
 - quotes.js, figures.js, calcs.js: quotes, drawn figures, calculators
+- chat.js: the Ask the manual helper
 - am/: the Amharic translation (interface, glossary, quotes, all pages)
 - README.md: this file
 
@@ -70,3 +71,11 @@ Nobody else can see your notes in either version. The GitHub repo itself never c
 ## Language switch
 
 Pressing አማርኛ or English redraws the page in the other language and puts you back on the same section, calculator or glossary entry you were reading. Numbers, units (in, ft, gpm, psi, ac), program codes and links stay the same in both languages so you can compare line by line.
+
+## Ask the manual
+
+The round button at the bottom right opens a chat that answers only from this manual. Type a question or a few keywords. It shows the matching sections, a short definition when a glossary term fits, links to open the section, and "Did you mean" choices when your words could point to more than one topic. If the manual does not cover something, it says so.
+
+- On the GitHub Pages site the chat is a built-in search of the manual. It needs no account and works offline once the page has loaded.
+- On the claude.ai version, Claude writes the answer from the matching manual sections and cites them. The first question asks your permission to use Claude, and you can turn this off with the Use Claude box in the chat.
+- Chat history stays in your browser. Clear chat removes it.
